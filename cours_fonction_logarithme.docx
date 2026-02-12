@@ -1,0 +1,42 @@
+Cours : La fonction logarithme – réciproque de la fonction exponentielle
+
+Introduction
+Situation-problème : Un virus se propage dans une population : chaque jour, le nombre de personnes infectées est multiplié par 3. Problème : Si l’on commence avec une seule personne parmi 729 habitants, au bout de combien de jours la totalité de la population sera-t-elle infectée ?
+- Question 1 : Comment exprimer ce problème mathématiquement ?
+- Question 2 : Comment retrouver le nombre de jours à partir de l’équation ?
+
+Mise en commun :
+Pour trouver le nombre de jours n, on cherche à résoudre l’équation :
+3^n = 729
+Mais comment “remonter” une puissance pour retrouver n ? C’est là qu’intervient la notion de fonction réciproque.
+
+I. Rappel sur la fonction exponentielle
+- Pour tout nombre réel x et tout réel strictement positif a ≠ 1, la fonction exponentielle de base a est : f(x) = a^x
+- Elle est définie sur R, strictement croissante (si a>1), toujours positive.
+
+II. Notion de fonction réciproque
+Prendre la fonction qui à x associe y = a^x ; quelle fonction permet de retrouver x à partir de y ?
+On cherche une fonction réciproque f^-1(y) telle que f^-1(a^x) = x
+
+III. Définition de la fonction logarithme
+On définit le logarithme en base a comme la réciproque de l’exponentielle :
+log_a(b) = x
+signifie : x est l’exposant auquel il faut élever a pour obtenir b.
+Liens fondamentaux : a^{log_a(b)} = b et log_a(a^x) = x
+Exemple : Pour résoudre 3^n = 729, on écrit : n = log_3(729); or, 729 = 3^6 donc n = 6
+
+IV. Propriétés et règles des logarithmes
+log_a(xy) = log_a(x) + log_a(y)
+log_a(x/y) = log_a(x) - log_a(y)
+log_a(x^k) = k log_a(x)
+log_{10} : logarithme décimal
+ln : logarithme népérien (base e)
+
+V. Exercices d’application
+1. Résoudre les équations suivantes : a) 2^x = 16 b) 10^y = 0,01 c) 5^z = 40 (arrondir à 0,01 près)
+2. Calculer : a) log_2(32) b) log_{10}(1000) c) ln(e^4)
+
+Conclusion
+Le logarithme permet de "remonter" la fonction exponentielle : il répond à la question "combien de fois faut-il multiplier a par lui-même pour obtenir b ?" Cette notion est fondamentale pour la résolution d’équations de croissance, la modélisation scientifique, les calculs d’énergie, etc.
+
+Pour aller plus loin : Les logarithmes sont présents dans la vie courante (échelle de Richter, pH, décibels…).
